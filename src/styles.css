@@ -1,0 +1,292 @@
+body{
+    background-color: aqua;
+    
+}
+
+header{
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+box-shadow: 0 3px 2px black;
+margin: 0px;
+}
+
+header h1{
+    font-size: 50px;
+}
+
+header ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+header li{
+    margin-right: 20px;
+    font-size: 25px;
+}
+header a{
+
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline
+}
+
+header nav a{
+color: goldenrod;
+text-decoration: none;
+}
+
+div h2{
+    font-size: 50px;
+    text-align: center;
+}
+div p{
+    font-size: 30px;
+    text-align: center;
+}
+
+button{
+    
+  background-color: #fff000;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 15px;
+  justify-content: center;
+}
+
+
+
+.cuerpo{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.listado{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.listado h3{
+ font-size: 35px;
+}
+
+.listado li{
+    text-align: start;
+    font-size: 25px;
+}
+
+.listaPersonajes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    
+    margin: 20px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgba(82, 133, 6, 0.726);
+    max-width: 350px;
+}
+
+
+.card img{
+    padding: 25px;
+    border-radius: 50%;
+    width: 75%;
+    height: 75%;
+    
+}
+
+.fondoImg{
+    background-image: url(./fondo\ r&m.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card h4{
+    font-size: 40px;
+    color: aliceblue;
+    margin: 0px;
+    padding: 20px;
+   
+    
+}
+
+.card h5{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: justify;
+    padding-left: 15px;
+}
+.card p{
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 25px;
+    color: aliceblue;
+}
+
+.card li{
+    color: aliceblue;
+}
+
+.personajeDetalle{
+    background-color: rgb(7, 150, 7);
+}
+
+h3{
+    color: black;
+    font-size: 40px;
+}
+
+.desc{
+    justify-content: center;
+}
+.desc h4{
+    color: aliceblue;
+    font-size: 40px;
+    letter-spacing: .1em;
+    text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+        
+}
+h5{
+    color: aliceblue;
+    font-size: 25px;
+    margin: 0px;
+    text-align: center;
+}
+.cartaDetalle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black ;
+    box-shadow: 1px black;
+    
+}
+
+.detalles{
+    margin: 30px;
+    padding: 30px;
+    border: 2px solid black ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.detalles ul{
+list-style: none;
+}
+
+.detalles p{
+    color: black;
+    font-size: 20px;   
+    text-align: left; 
+}
+
+.imagenDetalle{
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    margin: 0px;
+    max-width: fit-content;
+}
+.calculadora{
+    text-align: center;
+    padding: 20px;
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid black;
+    border-radius: 25%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.calculadora h4{
+   font-size: 19px;
+    color: black;
+   
+}
+.calculadora p{
+    text-align: center;
+    color: black;
+    font-size: 15px;    
+}
+
+
+.button-50 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 15px;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
+
+.check-list li {
+    position: relative;
+    list-style-type: none;
+    padding-left: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .check-list li:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: -2px;
+      width: 5px;
+      height: 11px;
+      border-width: 0 2px 2px 0;
+      border-style: solid;
+      border-color: #00a8a8;
+      transform-origin: bottom left;
+      transform: rotate(45deg);
+  }
